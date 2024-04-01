@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url("background.PNG");
+  background-size: 100%;
+  background-color: #cccccc;
+}
+h1 {
+  color:rgb(162, 128, 104);
+  font-family:'Franklin Gothic Medium';
+  font-size: 40px;
+}
+
+h2 {
+  color:rgb(162, 128, 104);
+  font-family:'Franklin Gothic Medium';
+  font-size: 20px;
+  margin-top : -50px;
+  margin-left: 830px;
+  position: absolute;
+}
+.btSearch{
+  font-family:Geneva;
+  background-color:rgb(153, 126, 106);
+  color: white;
+  border-color: rgb(153, 126, 106);
+}
+
+.btSearch:active {
+  transform: translateY(4px);
+}
+
+ul.designForUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  text-align: left;
+  font-family:Geneva;
+  margin-right: 650px;
+  margin-top: 20px;
+}
+
+Button.buttonDesign{
+  position: absolute;
+  margin-left: 150px;
+  top : 100px;
+  right : 130px;
+  background-color:rgb(153, 126, 106);
+  padding: 10px 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 0px;
+  font-family:Geneva;
+  color: white;
+}
+
+Button.buttonDesign:hover {
+  background-color:rgb(92, 87, 84);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: rgb(230, 204, 204);
+}
+
+Button.buttonDesign:active {
+  transform: translateY(4px);
+}
+
+.chatBt{
+  font-family:Geneva;
+  background-color:rgb(153, 126, 106);
+  color:white;
+  position: absolute;
+  top : 150px;
+  right : 62px;
+  border-color: rgb(153, 126, 106);
+}
+
+.chatInput{
+  position: absolute;
+  top : 150px;
+  right : 150px;
+}
+
+.content{
+  position: absolute;
+  white-space: pre-wrap;
+  top : 170px;
+  right : 100px;
+}
+
+.botDesign{
+  box-sizing: border-box;
+	padding: 0.5rem 1rem;
+	margin: 1rem 5rem 2rem auto ;
+	background:rgb(230, 204, 204);
+	border-radius: 1.125rem 1.125rem 1.125rem 0;
+	min-height: 2.25rem;
+	width: 500px;
+  height: min-content;
+	max-width: 66%;
+  overflow-x: auto;
+	box-shadow: 0 0 2rem rgba(black, 0.075), 0rem 1rem 1rem -1rem rgba(black, 0.1);
+}
+
+.questionDesign{
+  box-sizing: border-box;
+	padding: 0.5rem 1rem;
+	margin: 1rem 1rem 1rem auto ;
+	background: rgb(166, 133, 110);
+  color: whitesmoke;
+	border-radius: 1.125rem 1.125rem 1.125rem 0;
+	min-height: 2.25rem;
+	width: fit-content;
+	max-width: 66%;
+	box-shadow: 0 0 2rem rgba(black, 0.075), 0rem 1rem 1rem -1rem rgba(black, 0.1);
+}
